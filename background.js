@@ -5,8 +5,8 @@ function handleButtonClick(term){
     xhr.open('GET', 'https://od-api.oxforddictionaries.com/api/v1/entries/en/' + term.toLowerCase(), true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     //set authetnication id and key in headers.
-    xhr.setRequestHeader("app_id", "d177148a");
-    xhr.setRequestHeader("app_key","5945542a59283f82cf5dd66012624491");
+    xhr.setRequestHeader("app_id", "");
+    xhr.setRequestHeader("app_key","");
     //send request
     xhr.send();
     
